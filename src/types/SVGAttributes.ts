@@ -1,10 +1,12 @@
 import type { Attributes } from "./Attributes";
 
-import type { SVGCircleElementAttributes } from "./svg-attrs/circle";
-import type { SVGSVGElementAttributes } from "./svg-attrs/svg";
+import type { SVGCircleElementAttributes } from "./svg-elements-attrs/circle";
+import { SVGGElementAttributes } from "./svg-elements-attrs/g";
+import type { SVGSVGElementAttributes } from "./svg-elements-attrs/svg";
 
 type WrittenSVGAttributes = {
   svg: SVGSVGElementAttributes;
+  g: SVGGElementAttributes;
   circle: SVGCircleElementAttributes;
 };
 

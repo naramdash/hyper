@@ -1,10 +1,21 @@
 {
-  "name": "hyper",
+  "name": "@naram.dash/hyper",
   "author": "naramdash",
-  "version": "0.1.0",
+  "repository": "https://github.com/naramdash/hyper.git",
+  "homepage": "https://github.com/naramdash/hyper",
+  "version": "0.1.2",
   "type": "module",
-  "main": "lib/main.js",
-  "types": "lib/main.d.ts",
+  "main": "dist/main.js",
+  "module": "dist/main.js",
+  "types": "dist/main.d.ts",
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "HTML",
+    "SVG",
+    "Element"
+  ],
   "scripts": {
     "dev": "vite",
     "build": "tsc",
