@@ -1,11 +1,14 @@
 {
   "name": "hyper",
+  "author": "naramdash",
   "version": "0.1.0",
   "type": "module",
+  "main": "lib/main.js",
+  "types": "lib/main.d.ts",
   "scripts": {
     "dev": "vite",
-    "build": "tsc && vite build",
-    "preview": "vite preview"
+    "build": "tsc",
+    "tsc": "tsc"
   },
   "devDependencies": {
     "typescript": "^4.9.3",
