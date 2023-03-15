@@ -1,10 +1,10 @@
-import { BasicShape } from "../css-data-types/basic-shape";
-import { BeginValueList } from "../css-data-types/begin-value-list";
-import { GeometryBox } from "../css-data-types/geometry-box";
-import { LengthPercentage } from "../css-data-types/length-percentage";
-import { NumberOptionalNumber } from "../css-data-types/number-optional-number";
-import { Url } from "../css-data-types/url";
-import { Color as CSSColor } from "../css-data-types/color";
+import type { BasicShape } from "../css-data-types/basic-shape";
+import type { BeginValueList } from "../css-data-types/begin-value-list";
+import type { GeometryBox } from "../css-data-types/geometry-box";
+import type { LengthPercentage } from "../css-data-types/length-percentage";
+import type { NumberOptionalNumber } from "../css-data-types/number-optional-number";
+import type { Url } from "../css-data-types/url";
+import type { Color as CSSColor } from "../css-data-types/color";
 
 /**
  * https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/accumulate
@@ -203,7 +203,7 @@ export type gradientUnits = TODO;
 /**
  * https://developer.mozilla.org/en-US/docs/Web/SVG/Attribute/href
  */
-export type href = TODO;
+export type Href = TODO;
 
 export type imageRendering = TODO;
 export type In = TODO;
@@ -351,9 +351,9 @@ export type y2 = TODO;
 export type yChannelSelector = TODO;
 export type z = TODO;
 
-export type Height = TODO; // type differ by type
-export type Width = TODO; // type differ by type
-export type X = TODO; // type differ by type
-export type Y = TODO; // type differ by type
+// export type Height = TODO; // type differ by type
+// export type Width = TODO; // type differ by type
+// export type X = TODO; // type differ by type
+// export type Y = TODO; // type differ by type
 
-type TODO = never;
+type TODO = string | number;

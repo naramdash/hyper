@@ -1,5 +1,8 @@
-import { ColorInterpolation } from "../attrs/SVGAttributes";
+import type { PresentationAttributes } from "../attrs/SVGPresentationAttributes";
 
 export type SVGForeignObjectElementAttributes = {
-  "color-interpolation": ColorInterpolation;
-};
+  x: number | string;
+  y: number | string;
+  width: number | string;
+  height: number | string;
+} & PresentationAttributes;

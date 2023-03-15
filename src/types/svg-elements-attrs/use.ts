@@ -1,8 +1,10 @@
-import { ClipPath, ColorInterpolation, Cursor } from "../attrs/SVGAttributes";
-import { PresentationAttributes } from "../attrs/SVGPresentationAttributes";
+import type { Href } from "../attrs/SVGAttributes";
+import type { PresentationAttributes } from "../attrs/SVGPresentationAttributes";
 
 export type SVGUseElementAttributes = {
-  "clip-path": ClipPath;
-  "color-interpolation": ColorInterpolation;
-  cursor: Cursor;
+  href: Href;
+  x: number | string;
+  y: number | string;
+  width: number | string;
+  height: number | string;
 } & PresentationAttributes;

@@ -21,7 +21,7 @@ const svgImage = s(
   "svg",
   { viewBox: "0 0 500 500" },
   [],
-  [s("circle", { r: 30, cx: 50, cy: 50 })]
+  [s("circle", { r: 30, cx: "50", cy: "50" })]
 );
 
 app?.append(dialog, svgImage);

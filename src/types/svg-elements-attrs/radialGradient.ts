@@ -1,4 +1,4 @@
-import { ColorInterpolation, CX, CY } from "../attrs/SVGAttributes";
+import type { ColorInterpolation, CX, CY } from "../attrs/SVGAttributes";
 
 export type SVGRadialGradientElementAttributes = {
   "color-interpolation": ColorInterpolation;

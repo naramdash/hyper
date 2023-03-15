@@ -1,4 +1,4 @@
-import { ClipPath, ColorInterpolation, Cursor } from "../attrs/SVGAttributes";
+import type { ClipPath, ColorInterpolation, Cursor } from "../attrs/SVGAttributes";
 
 export type SVGAElementAttributes = {
   "clip-path": ClipPath;

@@ -1,13 +1,10 @@
-import {
-  ClipPath,
-  ColorInterpolation,
-  Cursor,
-  PathLength,
-} from "../attrs/SVGAttributes";
+import type { PathLength } from "../attrs/SVGAttributes";
+import type { PresentationAttributes } from "../attrs/SVGPresentationAttributes";
 
 export type SVGLineElementAttributes = {
-  "clip-path": ClipPath;
-  "color-interpolation": ColorInterpolation;
-  cursor: Cursor;
+  x1: string | number;
+  x2: string | number;
+  y1: string | number;
+  y2: string | number;
   pathLength: PathLength;
-};
+} & PresentationAttributes;

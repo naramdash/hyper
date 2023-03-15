@@ -1,5 +1,5 @@
-import { ColorInterpolation, Cursor } from "../attrs/SVGAttributes";
-import { PresentationAttributes } from "../attrs/SVGPresentationAttributes";
+import type { ColorInterpolation, Cursor } from "../attrs/SVGAttributes";
+import type { PresentationAttributes } from "../attrs/SVGPresentationAttributes";
 
 export type SVGDefsElementAttributes = {
   "color-interpolation": ColorInterpolation;

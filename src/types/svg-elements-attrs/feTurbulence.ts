@@ -1,4 +1,4 @@
-import {
+import type {
   BaseFrequency,
   ColorInterpolationFilters,
 } from "../attrs/SVGAttributes";

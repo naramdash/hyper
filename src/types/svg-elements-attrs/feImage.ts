@@ -1,4 +1,4 @@
-import {
+import type {
   ColorInterpolationFilters,
   PreserveAspectRatio,
 } from "../attrs/SVGAttributes";

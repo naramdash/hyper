@@ -1,15 +1,7 @@
-import {
-  ClipPath,
-  ColorInterpolation,
-  Cursor,
-  D,
-  PathLength,
-} from "../attrs/SVGAttributes";
+import type { D, PathLength } from "../attrs/SVGAttributes";
+import type { PresentationAttributes } from "../attrs/SVGPresentationAttributes";
 
 export type SVGPathElementAttributes = {
-  "clip-path": ClipPath;
-  "color-interpolation": ColorInterpolation;
-  cursor: Cursor;
   d: D;
   pathLength: PathLength;
-};
+} & PresentationAttributes;
