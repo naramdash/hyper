@@ -1,6 +1,7 @@
 import type { Attributes } from "./Attributes";
 
 import type { SVGCircleElementAttributes } from "./svg-elements-attrs/circle";
+import type { SVGForeignObjectElementAttributes } from "./svg-elements-attrs/foreignObject";
 import type { SVGGElementAttributes } from "./svg-elements-attrs/g";
 import type { SVGLineElementAttributes } from "./svg-elements-attrs/line";
 import type { SVGPathElementAttributes } from "./svg-elements-attrs/path";
@@ -16,6 +17,7 @@ type WrittenSVGAttributes = {
   rect: SVGRectElementAttributes;
   g: SVGGElementAttributes;
   use: SVGUseElementAttributes;
+  foreignObject: SVGForeignObjectElementAttributes;
 };
 
 type SVGAttributesMap<TagName extends keyof SVGElementTagNameMap> = Partial<

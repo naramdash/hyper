@@ -4,7 +4,7 @@
   "author": "naramdash",
   "repository": "https://github.com/naramdash/hyper.git",
   "homepage": "https://github.com/naramdash/hyper",
-  "version": "0.1.3",
+  "version": "0.1.4",
   "type": "module",
   "main": "dist/main.js",
   "module": "dist/main.js",
